@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+body {
+    background: linear-gradient(to right, rgb(45, 255, 227), rgb(255, 29, 255));
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.login-container {
+    height: 100vh;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 650px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    border: none;
+    padding: 10px 0px 10px 30px;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    text-align: right;
+    cursor: pointer;
+}
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(45, 255, 227), rgb(255, 29, 255));
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.SignUp-text {
+    text-align: center;
+    margin-top: 50px;
+}
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+.facebook-icon {
+    width: 30px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.x-icon {
+    width: 30px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.google-icon {
+    width: 30px;
+    cursor: pointer;
+}
+.user-icon {
+        position: absolute; /* Position icons inside the input container */
+        top: 53%; /* Center icon vertically */
+        width: 20px;
+        height: 20px;
+}
+.password-icon {
+    position: absolute;
+    top: 45%;
+}
+.email-icon {
+    position: absolute;
+    top: 53%;
+    width: 20px;
+    height: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form">
+
+            <h2 style="text-align: center;">Login</h2>
+
+            <div class="input-group">
+                <label>Username</label>
+                <span><img src="/thumbnails/user image.png" alt="user icon" class="user-icon"></span>
+                <input type="text" placeholder="Type your username">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <span><img src="/thumbnails/email icon.png" alt="email-icon" class="email-icon"></span>
+                <input type="email" placeholder="Type your email">
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <span class="password-icon">&#128274;</span>
+                <input type="password" placeholder="Type your password" placeholder="Type your password">
+            </div>
+
+           <p class="forgot-password">Forgot password?</p>
+
+            <button class="login-button">LOGIN</button>
+
+            <p class="SignUp-text">Or Sign Up Using</p>
+    
+            <div class="social-login">
+                <img class="facebook-icon" src="/thumbnails/facebook icon.png" alt="facebook icon">
+                <img class="x-icon" src="/thumbnails/x-social-media-round-icon.png" alt="x icon">
+                <img class="google-icon" src="/thumbnails/google icon.png" alt="google icon">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
