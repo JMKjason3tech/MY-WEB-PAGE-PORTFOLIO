@@ -5,7 +5,9 @@ This project is about my simple web-page portfolio that i created using visual s
 It displays my:
 
 *Work Experience
+
 *Education background
+
 *Technical skills (The common languages that i use to code) - simple explanations about those common programming languages
 
 This web-page portfolio is just a beginner starting point, showing how one can just use HTML and a little bit of CSS to deploy a simple web-page as
