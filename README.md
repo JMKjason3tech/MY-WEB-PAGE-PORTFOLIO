@@ -3,6 +3,7 @@
 This project is about my simple web-page portfolio that i created using visual studio code, containing HTML code and inline CSS.
 
 It displays my:
+
 *Work Experience
 *Education background
 *Technical skills (The common languages that i use to code) - simple explanations about those common programming languages
